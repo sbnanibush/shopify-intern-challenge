@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Spooky Nanibush</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+          <a href="#" class="navbar-brand">Spooky Prompts</a>
+            <ul>
+              <li class="list-group-item">Contact</li>
+            </ul>
+        </div>
+      </nav>
+      <div class="containter promptContainer">
+        <div class="spooky-prompt card card-body">
+          <h2>Let's Get Spooky</h2>
+          <form action="#"id="spookyForm" class="prompt-form" method="post" name="spookyForm">
+          <p class="lead">Enter a prompt to create a micro spooky story. </p>
+          <input type="text" id="prompt" class="form-control" placeholder="A ghost walks into a bar.." name="prompt">
+          <button type="submit" id="addForm" class="btn btn-primary">Submit</button>
+        </div>
+        <div class='response-container card card-body'>
+          <h3 class="responses">Responses<h3>
+
+        </div>
+      </form>
+        <br>
+    <footer class="mt-5 p-3 text-center bg-light"> Shopify Spooky Code Challenge &copy;
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
